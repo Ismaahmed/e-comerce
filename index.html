@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Ecommerce</title>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <div class="max-w-7xl mx-auto p-6">
+    
+    <!-- Navbar -->
+    <div class="flex justify-between items-center mb-8">
+      <h1 class="text-xl font-bold">ECOMMERCE</h1>
+      <div class="hidden md:flex gap-6 text-sm text-gray-600">
+        <a href="#">All Category</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Special Event</a>
+      </div>
+      <div class="flex gap-4">
+        <span>♡</span>
+        <span>🛒</span>
+      </div>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="grid md:grid-cols-3 gap-6">
+      
+      <!-- Left Big Card -->
+      <div class="md:col-span-2 relative rounded-3xl overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1470&auto=format&fit=crop" 
+          class="w-full h-full object-cover"
+        />
+
+        <!-- TEXT -->
+        <div class="absolute top-10 left-10 text-white max-w-md">
+          <h2 class="text-5xl leading-tight font-light">
+            Color of <br> Summer <br> Outfit
+          </h2>
+          <p class="text-sm mt-4">
+            100+ Collections for your outfit inspirations in this summer
+          </p>
+          <button class="mt-6 px-6 py-3 bg-black rounded-full text-sm">
+            VIEW COLLECTIONS
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="flex md:flex-col gap-6">
+        
+        <!-- Top Card -->
+        <div class="relative rounded-3xl overflow-hidden flex-1">
+          <img 
+            src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?q=80&w=1470&auto=format&fit=crop"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute top-6 left-6 text-white">
+            <h3 class="text-xl font-semibold">Outdoor Active</h3>
+          </div>
+        </div>
+
+        <!-- Bottom Card -->
+        <div class="relative rounded-3xl overflow-hidden flex-1">
+          <img 
+            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1470&auto=format&fit=crop"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute top-6 left-6 text-white">
+            <h3 class="text-xl font-semibold">Casual Comfort</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
