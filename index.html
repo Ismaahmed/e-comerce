@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commercia</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <nav class="border-b border-gray-400/20 opacity-70 bg-white hidden md:block  ">
-        <div class=" flex justify-between mx-auto max-w-7xl  items-center px-16 py-3  ">
-            <div class="flex gap-5">
-                <P>English</P>
+    <nav class="hidden md:block border-b border-gray-400/20 bg-white ">
+        <div class="max-w-7xl mx-auto flex justify-between py-5 px-8 opacity-70 ">
+            <div class="flex gap-8 items-center">
+                <p>English</p>
                 <p>Dollar</p>
+
             </div>
-            <ul class="flex gap-8">
+            <ul class="flex gap-8 items-center">
                 <a href="">
                     <li>Tracking Package</li>
                 </a>
@@ -33,101 +33,85 @@
                     <li>Contact Us</li>
                 </a>
             </ul>
+
         </div>
+
     </nav>
     <header>
-        <div class="flex gap-4 justify-between  mx-auto max-w-7xl  items-center whitespace-nowrap  px-6 sm:px-16 py-3">
-            <div class="flex lg:gap-10 items-center md:gap-2">
-                <a class="text-2xl font-bold" href="">ECOMMERCE</a>
-                <form class="hidden relative   h-10  max-w-lg xl:w-96  md:flex" action="">
+        <div class="max-w-7xl mx-auto px-8 py-5">
+            <div class="flex justify-between gap-4 text-sm  items-baseline whitespace-nowrap my-6">
+                <a class="font-bold text-2xl sm:text-3xl" href="">ECOMMERCE</a>
+                <form class="w-max relative hidden md:flex">
                     <input
-                        class="lg:w-full max-w-sm md:w-36 border-2 border-gray-400 outline-none focus:ring-2 focus:ring-gray-800 rounded-3xl px-4  py-2 "
+                        class=" md:w-36 lg:w-96 outline-none focus:ring-2 focus:ring-gray-600 border-2 border-gray-400 rounded-3xl px-4 py-2"
                         type="text" placeholder="Search here">
-                    <i class="fa-solid fa-magnifying-glass absolute xl:right-4 right-2 top-3"></i>
+                    <i class="fa-solid fa-magnifying-glass absolute pointer-events-none text-gray-500 right-4  top-3 "></i>
                 </form>
-
-                <ul class="hidden md:flex lg:gap-10 md:gap-2 items-center">
+                <ul class="hidden md:flex items-baseline gap-4 lg:gap-8 ">
                     <a href="">
-                        <li>All Category <i class=" fa-solid fa-angle-down"></i></li>
+                        <li> All Category <i class="fa-solid fa-angle-down "></i></li>
                     </a>
                     <a href="">
                         <li>Gift Cards</li>
                     </a>
-
                     <a href="">
                         <li>Special Event</li>
                     </a>
 
                 </ul>
+                <div class="hidden md:flex gap-2 lg:gap-4 items-baseline ">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                </div>
+                <div class="flex  md:hidden">
+                    <i class="fa-solid fa-bars text-xl "></i>
+                </div>
             </div>
-            <div class="hidden md:flex lg:gap-6 items-center gap-3 ">
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-cart-arrow-down"></i>
-
-            </div>
-            <div class="flex md:hidden">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
-        <div class="px-6 sm:px-16 py-5 mx-auto max-w-7xl">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 ">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8  ">
                 <div
-                    class="relative col-span-2 bg-[#a4b494] md:bg-transparent rounded-3xl flex flex-col justify-between">
-
-                    <div class="hidden md:flex absolute inset-0 -z-20">
-                        <img src="./image/image 3.png" alt="Woman " class="w-full rounded-3xl h-auto object-cover ">
+                    class="col-span-2 text-white whitespace-nowrap  relative rounded-3xl bg-[#a4b494] md:bg-transparent isolate overflow-hidden">
+                    <div class="absolute inset-0 -z-10 hidden md:block">
+                        <img class="w-full h-full rounded-3xl object-cover" src="./image/image 3.png" alt="">
                     </div>
-                    <div class="p-10 whitespace-nowrap">
-                        <h1 class="text-white text-5xl font-bold leading-tight mb-6">Color of
-                            <br>Summer
-                            <br>Outfit
-                        </h1>
-                        <p class="opacity-90 text-white text-sm mb-8">100+ Collections for your outfit
-                            <br> inspirations in
-                            this summer
+                    <div class="p-10">
+                        <h1 class="text-4xl font-bold leading-tight mb-6 sm:text-5xl">Color of <br>
+                            Summer <br>
+                            Outfit </h1>
+                        <p class="leading-relaxed text-sm opacity-90 mb-8">100+ Collections for your outfit
+                            <br> inspirations in this summer
                         </p>
-                        <a class="text-white  bg-black px-10 py-3 rounded-full text-sm font-medium tracking-wide mb-8 hover:bg-gray-900 transition-colors"
-                            href=""> VIEW COLLECTIONS</a>
-
+                        <a class="bg-black  w-fit px-8 py-3 rounded-full text-sm font-medium tracking-wide" href="">VIEW
+                            COLLECTIONS</a>
                     </div>
-                    <div class=" relative ">
-                        <img src="./image/image 3.png" alt=""
-                            class="w-full rounded-b-3xl h-auto md:hidden object-cover">
+                    <div class="md:hidden">
+                        <img class="w-full object-cover rounded-b-3xl" src="./image/image 3.png" alt="">
                     </div>
                 </div>
-
-
-                <div class="flex flex-col  gap-6">
-                    <div class="group relative overflow-hidden rounded-3xl cursor-pointer h-80">
-                        <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                <div class="flex flex-col gap-6">
+                    <div class="group relative h-[21rem] rounded-3xl overflow-hidden cursor-pointer">
+                        <img class="object-cover w-full h-full  group-hover:scale-110 transition-transform duration-500"
                             src="./image/image 4.png" alt="">
-                        <div class="absolute top-6 left-6">
-                            <p class="text-black text-2xl font-semibold leading-tight">Outdoor <br>
-                                Active</p>
+                        <p class="absolute left-6 top-6 text-2xl font-semibold">
 
-                        </div>
-
+                            Outdoor <br>
+                            Active
+                        </p>
                     </div>
-                    <div class="group relative overflow-hidden rounded-3xl cursor-pointer h-80">
-                        <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                    <div class="group relative h-[21rem] rounded-3xl overflow-hidden cursor-pointer ">
+                        <img class="object-cover w-full h-full  group-hover:scale-110 transition-transform duration-500"
                             src="./image/image 5.png" alt="">
-                        <div class="absolute top-6 left-6">
-                            <p class="text-black text-2xl font-semibold leading-tight">Casual <br>
-                                Comfort</p>
+                        <p class="absolute left-6 top-6 text-2xl font-semibold">
 
-                        </div>
-
+                            Casual <br>
+                            Comfort
+                        </p>
                     </div>
-
                 </div>
-
             </div>
         </div>
 
-        </div>
     </header>
-   
 
 </body>
 
